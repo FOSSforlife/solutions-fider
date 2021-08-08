@@ -50,7 +50,7 @@ type config struct {
 		Host string `env:"CDN_HOST"`
 	}
 	Log struct {
-		Level string `env:"LOG_LEVEL,default=INFO"`
+		Level string `env:"LOG_LEVEL,default=ERROR"`
 	}
 	OAuth struct {
 		Google struct {
